@@ -1,0 +1,38 @@
+{
+  "name": "StreemShared",
+  "version": "0.2.2",
+  "summary": "Shared code for Streem IOS SDK",
+  "description": "Models and other shared code for use by SDK components",
+  "homepage": "https://streem.pro",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright 2018 Streem, Inc. All rights reserved. Use of this software is subject to the terms and conditions of the Streem Terms of Service located at https://sites.google.com/streem.pro/terms-and-privacy/home"
+  },
+  "authors": {
+    "Streem": "support@streem.pro"
+  },
+  "source": {
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemShared/StreemShared-0.2.2.zip"
+  },
+  "source_files": "StreemShared/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "StreemShared": [
+      "StreemShared/Assets/*.{xcassets,scnassets}",
+      "StreemShared/Classes/**/*.{storyboard,xib}"
+    ]
+  },
+  "frameworks": [
+    "UIKit"
+  ],
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.0"
+    ],
+    "RxCocoa": [
+      "~> 4.0"
+    ]
+  }
+}
