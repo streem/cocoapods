@@ -1,0 +1,40 @@
+{
+  "name": "StreemCalls",
+  "version": "0.2.4",
+  "summary": "Streem IOS SDK, CallKit",
+  "description": "The StreemCalls SDK supports CallKit phone call like functionality",
+  "homepage": "https://streem.pro",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright 2018 Streem, Inc. All rights reserved. Use of this software is subject to the terms and conditions of the Streem Terms of Service located at https://sites.google.com/streem.pro/terms-and-privacy/home"
+  },
+  "authors": {
+    "Streem": "support@streem.pro"
+  },
+  "source": {
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemCalls/StreemCalls-0.2.4.zip"
+  },
+  "source_files": "StreemCalls/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "StreemCalls": [
+      "StreemCalls/Assets/*.{xcassets,scnassets}",
+      "StreemCalls/Classes/**/*.{storyboard,xib}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "CallKit",
+    "PushKit"
+  ],
+  "vendored_frameworks": [
+    "Build/iOS/StreemCalls.framework"
+  ],
+  "dependencies": {
+    "Streem": [
+
+    ]
+  }
+}
