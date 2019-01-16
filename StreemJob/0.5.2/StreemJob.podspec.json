@@ -1,0 +1,59 @@
+{
+  "name": "StreemJob",
+  "version": "0.5.2",
+  "summary": "Customer and Professional Streem View",
+  "description": "StreemJob provides the video view and tool functionality of the Streem SDK",
+  "homepage": "https://streem.pro",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_version": "4.2",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright 2018 Streem, Inc. All rights reserved. Use of this software is subject to the terms and conditions of the Streem Terms of Service located at https://sites.google.com/streem.pro/terms-and-privacy/home"
+  },
+  "authors": {
+    "Streem": "support@streem.pro"
+  },
+  "source": {
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemJob/StreemJob-0.5.2.zip"
+  },
+  "source_files": "StreemJob/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "StreemJob": [
+      "StreemJob/Assets/*.scnassets"
+    ]
+  },
+  "frameworks": [
+    "UIKit"
+  ],
+  "vendored_frameworks": [
+    "Build/iOS/StreemJob.framework"
+  ],
+  "dependencies": {
+    "SnapKit": [
+      "~> 4.0.0"
+    ],
+    "PromiseKit": [
+      "~> 6.2.8"
+    ],
+    "RateLimit": [
+      "~> 2.1.1"
+    ],
+    "TwilioVideo": [
+      "= 2.3.0"
+    ],
+    "TwilioSyncClient": [
+      "~> 0.7.5"
+    ],
+    "RxSwift": [
+      "~> 4.3.0"
+    ],
+    "RxCocoa": [
+      "~> 4.3.0"
+    ],
+    "StreemShared": [
+      "= 0.5.2"
+    ]
+  }
+}
