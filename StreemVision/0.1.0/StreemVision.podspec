@@ -9,7 +9,7 @@ DESC
 
 s.homepage         = 'https://streem.pro'
 s.license          = { :type => 'LGPLv3', :file => 'LICENSE' }
-s.author           = { 'Pavan' => 'pavan@streem.pro' }
+s.author           = { 'Streem' => 'support@streem.pro' }
 s.source            = { :http => 'https://streem-cocoapods.s3.amazonaws.com/StreemVision/StreemVision-0.1.0.zip' }
 s.social_media_url = 'https://twitter.com/streem_pro'
 s.dependency 'JustLog'
