@@ -18,6 +18,9 @@
   "source": {
     "http": "https://streem-cocoapods.s3.amazonaws.com/StreemGuidedScanKit/StreemGuidedScanKit-0.1.0.zip"
   },
+  "vendored_frameworks": [
+    "StreemGuidedScanKit.xcframework"
+  ],
   "frameworks": [
     "UIKit"
   ],
