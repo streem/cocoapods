@@ -1,0 +1,43 @@
+{
+  "name": "StreemKit",
+  "version": "0.24.1",
+  "summary": "Streem IOS SDK",
+  "description": "The Streem SDK supports on-demand video calling between professionals and consumers.\nAR Tools enhance the collaboration, and using image analysis, can automatically\nextract model/serial numbers from products, and save important project details.",
+  "homepage": "https://streem.pro",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "4.2",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright 2018 Streem, Inc. All rights reserved. Use of this software is subject to the terms and conditions of the Streem Terms of Service located at https://www.streem.com/terms-and-conditions"
+  },
+  "authors": {
+    "Streem": "support@streem.pro"
+  },
+  "source": {
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemKit/StreemKit-0.24.1.zip"
+  },
+  "vendored_frameworks": [
+    "StreemKit.xcframework",
+    "StreemWebRTC.xcframework"
+  ],
+  "preserve_paths": "configure_streemkit.rb",
+  "frameworks": [
+    "UIKit",
+    "CallKit",
+    "PushKit"
+  ],
+  "dependencies": {
+    "SwiftProtobuf": [
+      "~> 1.7"
+    ],
+    "TwilioVideo": [
+      "= 3.8"
+    ],
+    "TwilioSyncClient": [
+      "~> 0.7.5"
+    ]
+  },
+  "swift_version": "4.2"
+}
