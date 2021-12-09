@@ -24,7 +24,7 @@
   "vendored_frameworks": "StreemGuidedScanKit.xcframework",
   "dependencies": {
     "StreemKit": [
-
+      "0.26.1-swift55"
     ],
     "SwiftProtobuf": [
       "~> 1.7"
