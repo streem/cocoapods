@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "StreemKernel": [
-      "~> 0.1.2"
+      "~> 0.1.4"
     ],
     "SwiftProtobuf": [
       "~> 1.7"
