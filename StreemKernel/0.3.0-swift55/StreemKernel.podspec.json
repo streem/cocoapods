@@ -16,7 +16,7 @@
     "Streem": "support@streem.pro"
   },
   "source": {
-    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemKernel-Test/StreemKernel-0.3.0-swift55.zip"
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemKernel/StreemKernel-0.3.0-swift55.zip"
   },
   "frameworks": [
     "UIKit"
