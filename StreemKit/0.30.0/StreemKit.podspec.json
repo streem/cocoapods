@@ -16,7 +16,7 @@
     "Streem": "support@streem.pro"
   },
   "source": {
-    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemKit-Test/StreemKit-0.30.0.zip"
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemKit/StreemKit-0.30.0.zip"
   },
   "vendored_frameworks": [
     "StreemKit.xcframework",
