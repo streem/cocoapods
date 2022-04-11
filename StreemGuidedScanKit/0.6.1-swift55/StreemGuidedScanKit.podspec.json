@@ -16,7 +16,7 @@
     "Streem": "support@streem.pro"
   },
   "source": {
-    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemGuidedScanKit-Test/StreemGuidedScanKit-0.6.1-swift55.zip"
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemGuidedScanKit/StreemGuidedScanKit-0.6.1-swift55.zip"
   },
   "frameworks": [
     "UIKit"
@@ -24,7 +24,7 @@
   "vendored_frameworks": "StreemGuidedScanKit.xcframework",
   "dependencies": {
     "StreemKernel": [
-      "~> 0.2.0"
+      "~> 0.3.1-swift55"
     ],
     "SwiftProtobuf": [
       "~> 1.7"
