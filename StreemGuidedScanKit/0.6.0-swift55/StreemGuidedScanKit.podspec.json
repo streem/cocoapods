@@ -25,10 +25,10 @@
   "vendored_frameworks": "StreemGuidedScanKit.xcframework",
   "dependencies": {
     "StreemKernel": [
-      "~> 0.3.0-swift55"
+      "0.3.0-swift55"
     ],
     "SwiftProtobuf": [
-      "~> 1.7"
+      "1.7"
     ]
   },
   "swift_version": "5.5"
