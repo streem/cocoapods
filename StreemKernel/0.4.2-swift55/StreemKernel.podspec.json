@@ -1,0 +1,34 @@
+{
+  "name": "StreemKernel",
+  "version": "0.4.2-swift55",
+  "summary": "Streem Kernel Cocoapod",
+  "description": "StreemKernel is for use by Streem's iOS SDKs only.",
+  "homepage": "https://streem.pro",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.5",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright 2022 Streem, Inc. All rights reserved. Use of this software is subject to the terms and conditions of the Streem Terms of Service located at https://www.streem.com/terms-and-conditions"
+  },
+  "authors": {
+    "Streem": "support@streem.pro"
+  },
+  "source": {
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemKernel/StreemKernel-0.4.2-swift55.zip"
+  },
+  "frameworks": [
+    "UIKit"
+  ],
+  "vendored_frameworks": "StreemKernel.xcframework",
+  "dependencies": {
+    "SwiftProtobuf": [
+      "~> 1.7"
+    ],
+    "TwilioSyncClient": [
+      "~> 1.1.0"
+    ]
+  },
+  "swift_version": "5.5"
+}
