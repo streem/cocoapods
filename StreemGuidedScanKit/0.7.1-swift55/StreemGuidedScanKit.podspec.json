@@ -21,6 +21,7 @@
   "frameworks": [
     "UIKit"
   ],
+  "preserve_paths": "configure_guidedscankit.rb",
   "vendored_frameworks": "StreemGuidedScanKit.xcframework",
   "dependencies": {
     "StreemKernel": [
