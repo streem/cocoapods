@@ -1,0 +1,35 @@
+{
+  "name": "StreemGuidedScanKit",
+  "version": "0.3.0",
+  "summary": "Streem Guided Scan Kit IOS SDK",
+  "description": "Streem’s Guided Scan SDK for iOS supports 3D scanning and the creation of automated measurements using Lidar and 3D point cloud technology.",
+  "homepage": "https://streem.com",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "4.2",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright 2023 Streem, Inc. All rights reserved. Use of this software is subject to the terms and conditions of the Streem Terms of Service located at https://www.streem.com/terms-and-conditions"
+  },
+  "authors": {
+    "Streem": "support@streem.pro"
+  },
+  "source": {
+    "http": "https://streem-cocoapods.s3.amazonaws.com/StreemGuidedScanKit/StreemGuidedScanKit-0.3.0.zip"
+  },
+  "frameworks": [
+    "UIKit"
+  ],
+  "preserve_paths": "configure_guidedscankit.rb",
+  "vendored_frameworks": "StreemGuidedScanKit.xcframework",
+  "dependencies": {
+    "StreemKernel": [
+      "0.7.0"
+    ],
+    "SwiftProtobuf": [
+      "1.7"
+    ]
+  },
+  "swift_version": "4.2"
+}
